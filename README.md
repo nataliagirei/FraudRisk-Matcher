@@ -17,7 +17,6 @@ It uses a combination of exact matching, fuzzy string comparison, phonetic algor
 
 ## Installation
 
-
 You can either work with the code you already have locally, or clone this repository if using GitHub.
 
 ### Option 1: Local setup (if you already have the script)
@@ -27,3 +26,11 @@ You can either work with the code you already have locally, or clone this reposi
    source venv/bin/activate   # on Linux/Mac
    venv\Scripts\activate      # on Windows
    pip install -r requirements.txt
+   
+### Option 2: Clone from GitHub
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nataliagirei/FraudRisk-Matcher.git
+   cd raudRisk-Matcher
+   pip install -r requirements.txt
+

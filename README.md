@@ -3,7 +3,7 @@ Identifying potential connections between employees and company owners using mul
 
 This is a Python-based tool for detecting potential conflicts of interest and fraud risks by identifying links between employees and company owners.  
 It uses a combination of exact matching, fuzzy string comparison, phonetic algorithms, and address normalization to find hidden connections.
-
+ 
 ## Features
 - Text normalization for names and addresses
 - Alphabet detection (Cyrillic, Latin, Korean)

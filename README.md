@@ -14,6 +14,7 @@ It uses a combination of exact matching, fuzzy string comparison, phonetic algor
 - Address normalization (handling common abbreviations like *ul.* → *ul*, *apt.* → *apt*)
 - Exact PESEL number matching
 - Generation of a consolidated Excel report with reasons and similarity scores
+- Excel formatting
 
 ## Installation
 
@@ -31,6 +32,12 @@ You can either work with the code you already have locally, or clone this reposi
 1. Clone the repository:
    ```bash
    git clone https://github.com/nataliagirei/FraudRisk-Matcher.git
-   cd raudRisk-Matcher
+   cd FraudRisk-Matcher
    pip install -r requirements.txt
 
+## Example Data & Notes
+- Added sample datasets with companies and employees. These were **randomly generated using the `faker` library**, and any coincidences are unintentional.  
+- Included an example output file (`matches.xlsx`) to illustrate the results.  
+- For large datasets, it is recommended to install **python-Levenshtein** to speed up fuzzy string matching:  
+  ```bash
+  pip install python-Levenshtein
